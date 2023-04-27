@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url(/resources/cardboard_texture.png);
+  margin: 0 20px;
+}
+
+#tribute {
+  background-color: #FBB120;
+  min-width: 440px;
+  max-width: 1500px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  border: solid 3px #AB2913;
+  margin: 20px auto;
+}
+
+header {
+  margin: 0px auto;
+  color: #AB2913;
+  text-align: center;
+}
+
+header, footer {
+  padding: 100px 0 50px 0;
+}
+
+main {
+  margin: 0 25px;
+}
+
+#title {
+  margin-bottom: 15px;
+}
+
+#description {
+  font-weight: bold;
+}
+
+#image {
+  width: calc(85% + 30px);
+  display: block;
+}
+
+#img-caption {
+  text-align: center;
+  color: #AF650A;
+  margin: 10px 0 50px 0;
+}
+
+#tribute-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 35px 5%;
+}
+
+#image, #img-div, #tribute-info {
+  margin: 0 auto;
+}
+
+#img-div, #tribute-info {
+  max-width: 1250px
+}
+
+.tribute-block {
+  width: 40%;
+  max-width: 500px;
+  min-width: 350px;
+  padding: 6px;
+}
+
+.tribute-block:hover {
+  border: none;
+  border-left: solid 3px #EBA10A;
+  border-top: solid 3px #EBA10A;
+}
+
+#image, .tribute-block {
+  border-right: solid 3px #EBA10A;
+  border-bottom: solid 3px #EBA10A;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-right: solid 3px #EBA10A;
+  border-bottom: solid 3px #EBA10A;
+}
+
+.icon:hover {
+  border: none;
+  border-left: solid 3px #EBA10A;
+  border-top: solid 3px #EBA10A;
+}
+
+.small {
+  width: 45px;
+  height: 45px;
+  padding: 15px;
+}
+
+.large {
+  width: 55px;
+  height: 55px;
+  padding: 10px;
+}
+
+.flip {
+  rotate: 180deg;
+  border: none;
+  border-left: solid 3px #EBA10A;
+  border-top: solid 3px #EBA10A;
+}
+
+.flip:hover {
+  border: none;
+  border-right: solid 3px #EBA10A;
+  border-bottom: solid 3px #EBA10A;
+}
+
+.block-headings {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.block-title {
+  background-color: #AB2913;
+  color: #FBB120;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.block-subtitle {
+  color: #AB2913;
+  margin-left: 5px;
+}
+
+.block-description {
+  margin: 15px;
+  line-height: 1.5;
+  color: #AF650A;
+}
+
+.block-banner {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  border: none;
+  width: 320px;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #AB2913;
+  background-color: inherit;
+  padding: 10px 30px;
+  cursor: pointer;
+   border-right: solid 3px #EBA10A;
+  border-bottom: solid 3px #EBA10A;
+}
+
+button:hover {
+  border: none;
+  border-left: solid 3px #EBA10A;
+  border-top: solid 3px #EBA10A;
+}
+
+#stamp {
+  text-align: center;
+  font-size: 14px;
+  color: #AF650A;
+}
