@@ -182,9 +182,21 @@ button:hover {
 @media (min-width: 100px) and (max-width: 499px) {
   #tribute {
     min-width: 300px;
+    margin: none;
+    border: none;
+    border-left: solid 3px #AB2913;
+    border-right: solid 3px #AB2913;
   }
 
   .tribute-block {
     min-width: 250px;
+  }
+
+  #image {
+    width: calc(85% + 15px);
+  }
+
+  button {
+    width: 200px;
   }
 }
