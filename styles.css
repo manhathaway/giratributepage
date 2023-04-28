@@ -9,7 +9,7 @@ body {
 
 #tribute {
   background-image: linear-gradient(#FCC14D, #FBB120);
-  min-width: 600px;
+  min-width: 400px;
   max-width: 1500px;
   font-family: sans-serif;
   letter-spacing: 1px;
@@ -177,4 +177,14 @@ button:hover {
   text-align: center;
   font-size: 14px;
   color: #AF650A;
+}
+
+@media (min-width: 100px) and (max-width: 499px) {
+  #tribute {
+    min-width: 300px;
+  }
+
+  .tribute-block {
+    min-width: 250px;
+  }
 }
