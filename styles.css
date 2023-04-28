@@ -4,7 +4,7 @@
 
 body {
   background-image: url(resources/cardboard_texture.png);
-  margin: 0 20px;
+  margin: 0;
 }
 
 #tribute {
@@ -37,6 +37,7 @@ main {
 
 #description {
   font-weight: bold;
+  background-color: black;
 }
 
 #image {
@@ -182,7 +183,7 @@ button:hover {
 @media (min-width: 100px) and (max-width: 499px) {
   #tribute {
     min-width: 300px;
-    margin: none;
+    margin: 0;
     border: none;
     border-left: solid 3px #AB2913;
     border-right: solid 3px #AB2913;
@@ -192,11 +193,7 @@ button:hover {
     min-width: 250px;
   }
 
-  #image {
+  #description, #image, button, #stamp {
     width: calc(85% + 15px);
-  }
-
-  button {
-    width: 200px;
   }
 }
