@@ -4,7 +4,7 @@
 
 body {
   background-image: url(resources/cardboard_texture.png);
-  margin: 0;
+  margin: 0 20px;
 }
 
 #tribute {
@@ -37,7 +37,6 @@ main {
 
 #description {
   font-weight: bold;
-  background-color: black;
 }
 
 #image {
