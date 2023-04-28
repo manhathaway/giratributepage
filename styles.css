@@ -200,8 +200,7 @@ button:hover {
     width: calc(85% + 15px);
   }
 
-  #description, #stamp, button {
-    width: 300px;
-    text-align: center;
+  button {
+    width: 275px;
   }
 }
