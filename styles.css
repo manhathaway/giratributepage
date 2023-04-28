@@ -180,6 +180,10 @@ button:hover {
 }
 
 @media (min-width: 100px) and (max-width: 499px) {
+  header, footer {
+    padding: 50px 0;
+  }
+  
   #tribute {
     min-width: 300px;
     margin: 0;
@@ -192,7 +196,11 @@ button:hover {
     min-width: 250px;
   }
 
-  #description, #image, button, #stamp {
+  #image {
     width: calc(85% + 15px);
+  }
+
+  #description, #stamp, button {
+    width: 300px;
   }
 }
